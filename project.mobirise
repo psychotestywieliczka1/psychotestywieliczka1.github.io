@@ -151,7 +151,7 @@
             },
             "overlay": true,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.5"
           },
           "title": "Badania Psychologiczne Kierowców i Operatorów Maszyn",
           "text": "",
@@ -163,7 +163,10 @@
           "_anchor": "header1-1",
           "_styles": {
             ".mbr-section-title": {
-              "text-align": "center"
+              "text-align": "center",
+              "font-family": "'Source Sans Pro', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "font-size": "60px"
             }
           }
         },
