@@ -161,7 +161,7 @@
                 "title": "",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "<span style=\"font-style: normal;\"><b>Badania Psychologiczne\n<br></b></span><b style=\"font-style: normal;\">Kierowców i Operatorów Maszyn</b>",
+                "text": "<b style=\"font-style: normal;\">Badania Psychologiczne\n<br>Kierowców i Operatorów Maszyn</b>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">Zadzwoń</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"tel:+48-608626599\" data-toolbar=\"-mbrBtnMove\">608 626 599</a>",
                 "alt": ""
               },
@@ -191,7 +191,7 @@
                 "title": "Badania Psychologiczne\n<div>Kierowców i Operatorów Maszyn</div>",
                 "overlay": true,
                 "contentAlign": "right",
-                "text": ".<b style=\"font-style: normal;\">Badania </b><span style=\"font-style: normal;\"><b>Psychologiczne\n</b></span><br><span style=\"font-style: normal;\"><b>Kierowców i Operatorów Maszyn</b></span>",
+                "text": "<b style=\"font-style: normal;\">Badania </b><span style=\"font-style: normal;\"><b>Psychologiczne\n</b></span><br><span style=\"font-style: normal;\"><b>Kierowców i Operatorów Maszyn</b></span>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">Zadzwoń</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"tel:+48-608626599\" data-toolbar=\"-mbrBtnMove\">608 626 599</a>",
                 "alt": ""
               }
