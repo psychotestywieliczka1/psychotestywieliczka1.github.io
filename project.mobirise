@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Psychotesty-clone",
+    "name": "Psychotesty-clone-clone",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -28,10 +28,17 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.3",
     "siteFonts": [],
-    "uniqCompNum": 54,
+    "uniqCompNum": 56,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
-    "imageResize": true
+    "imageResize": true,
+    "favicon": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
@@ -135,37 +142,73 @@
         },
         {
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-1920x1280.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#a07e49",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": "0.5"
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": 5,
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-4-1920x1280.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "Badania Psychologiczne \n<div>Kierowców i Operatorów Maszyn</div>",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">Zadzwoń</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"tel:+48-608626599\" data-toolbar=\"-mbrBtnMove\">608 626 599</a>",
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-4.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "Badania Psychologiczne\n<div>Kierowców i Operatorów Maszyn</div>",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-3-1920x1280.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "Badania Psychologiczne\n<div>Kierowców i Operatorów Maszyn</div>",
+                "overlay": true,
+                "contentAlign": "right",
+                "text": ".",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">Zadzwoń</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"tel:+48-608626599\" data-toolbar=\"-mbrBtnMove\">608 626 599</a>",
+                "alt": ""
+              }
+            ]
           },
-          "title": "Badania Psychologiczne Kierowców i Operatorów Maszyn",
-          "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"tel:+48-608626599\" data-toolbar=\"-mbrBtnMove\">Kontakt : 608 626 599</a> ",
+          "articleLayout": false,
           "_tags": [
             "Theme"
           ],
-          "_name": "header1",
-          "_anchor": "header1-1",
+          "_name": "slider",
+          "_anchor": "slider-1i",
           "_styles": {
-            ".mbr-section-title": {
-              "text-align": "center",
-              "font-family": "'Source Sans Pro', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+            "DIV": {
+              "text-align": "left"
+            },
+            "H2": {
+              "text-align": "left",
               "font-size": "60px"
             }
           }
